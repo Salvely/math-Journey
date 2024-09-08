@@ -1,6 +1,3 @@
-<!-- [text]() [text](.obsidian/themes/Catppuccin/manifest.json) -->
-<link rel="stylesheet" type="text/css" href=".obsidian/themes/Catppuccin/theme.css">
-
 # math-Journey
 
 我的数学学习之路，基于[MIT Roadmaps](https://math.mit.edu/academics/undergrad/roadmaps.html)，教材选择参考 [Math.stackexchange](https://math.stackexchange.com/) 以及[cargalmathbooks](http://www.cargalmathbooks.com/)
