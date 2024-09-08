@@ -664,12 +664,12 @@
 
 ## 应用数学部分：计算机方向
 
-- [ ] MIT 18.02 Multivariable Calculus
+- [ ] 18.02 Multivariable Calculus
   - [ ] [The Calculus: A Genetic Approach: Toeplitz, Otto, Bressoud, David: 9780226806686: Amazon.com: Books](https://www.amazon.com/Calculus-Genetic-Approach-Otto-Toeplitz/dp/0226806685)
   - [ ] Calculus Made Easy by Silvanus P. Thompson
   - [ ] Calculus: One-variable calculus, with an introduction to linear algebra
   - [ ] Calculus: Multi-variable calculus and linear algebra, with applications to differential equations and probability
-- [ ] MIT 18.06 Linear Algebra
+- [ ] 18.06 Linear Algebra
   - [ ] Gilbert Strang \<Introduction to Linear Algebra\> 阅读完成，并完成所有习题
     - [x] Chapter 1-2 阅读并完成习题
     - [ ] 2.7 习题完成
@@ -748,12 +748,12 @@
     - [ ] Chapter 11 阅读完成
     - [ ] Chapter 12 阅读完成
     - [ ] 全书总结完成
-  - [ ] MIT 18.06 课程资料学习
+  - [ ] 18.06 课程资料学习
   - [ ] 《线性代数及其应用》阅读完成，并完成所有习题
   - [ ] 其他线代课本阅读并完成习
-- [ ] MIT 18.03 x Differential Equations
+- [ ] 18.03 x Differential Equations
   - [ ] William A. Adkins • Mark G. Davidson 《Ordinary Differential Equations》阅读
-  - [ ] MIT 18.03
+  - [ ] 18.03
     - [ ] Part I - First-order differential equations
       - [x] R 1 Natural growth, separable equations
       - [ ] R 1 Reading
@@ -850,8 +850,8 @@
       - [ ] L 39 Limitations of the linear: limit cycles and chaos + Readings
       - [ ] R 26 Reviews + Readings
       - [ ] Final Exam
-  - [ ] MIT 18.03 SC
-  - [ ] MIT 18.034 Honor Differential Equations
+  - [ ] 18.03 SC
+  - [ ] 18.034 Honor Differential Equations
   - [ ] Elementary Differential Equations with Boundary Value Problems 阅读
     - [ ] Chapter 1 First-Order Differential Equations 阅读
     - [ ] Chapter 2 Linear Equations of Higher Order 阅读
@@ -862,57 +862,51 @@
     - [ ] Chapter 7 Nonlinear Systems and Phenomena 阅读
     - [ ] Chapter 9. Eigenvalues and Boundary Value Problems 阅读
     - [ ] Chapter 8. Fourier Series Methods 阅读
-- [ ] Differential Equations & Linear Algebra
-- [ ] MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
+- [ ] 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
   - [ ] Signal Processing & Electronics
-  - [ ] MIT 6.01 Intro to EECS I
-  - [ ] MIT 6.00 Introduction to Computer Science and Programming
-  - [ ] MIT 6.100 A Introduction to Computer Science Programming in Python
-  - [ ] MIT 6.0002 Introduction to Computational Thinking and data Science
-  - [ ] MIT 6.02 Intro to EECS II
+  - [ ] 6.01 Intro to EECS I
+  - [ ] 6.00 Introduction to Computer Science and Programming
+  - [ ] 6.100 A Introduction to Computer Science Programming in Python
+  - [ ] 6.0002 Introduction to Computational Thinking and data Science
+  - [ ] 6.02 Intro to EECS II
   - [ ] UCB EE 16 A
   - [ ] UCB EE 16 B
-  - [ ] MIT 6.002 Circuits and Electronics
-  - [ ] MIT 6.003 Signals and Systems
+  - [ ] 6.002 Circuits and Electronics
+  - [ ] 6.003 Signals and Systems
   - [ ] UCB EE 120 Signals and Systems
   - [ ] Data science
   - [ ] Strang, Gilbert. *Linear Algebra and Learning from Data*. 阅读
-  - [ ] MIT 18.065 Readings 阅读并总结，总结见此
-  - [ ] MIT 18.065 Video Lectures 观看
-  - [ ] MIT 18.065 Assignments 完成
-  - [ ] MIT 18.065 Final Projects 完成
+  - [ ] 18.065 Readings 阅读并总结，总结见此
+  - [ ] 18.065 Video Lectures 观看
+  - [ ] 18.065 Assignments 完成
+  - [ ] 18.065 Final Projects 完成
   - [ ] [mitmath/18065: 18.065/18.0651: Matrix Methods in Data Analysis, Signal Processing, and Machine Learning (github.com)](https://github.com/mitmath/18065) 现代版 Notes 阅读
   - [ ] [mitmath/18065: 18.065/18.0651: Matrix Methods in Data Analysis, Signal Processing, and Machine Learning (github.com)](https://github.com/mitmath/18065) Problem Sets 完成
   - [ ] UCB Data 8
   - [ ] UCB Data 100
   - [ ] Harvard CS 109 A
-- [ ] MIT 18.05 Introduction to Probability and Statistics
-- [ ] MIT 6.3700 Introduction to Probability
-- [ ] MIT 6.3800 Introduction to Inference
-- [ ] MIT 18.05 Introduction to Probability and Statistics
-- [ ] MIT 18.600 Probability and Random Variables
-- [ ] MIT 18.650 Fundamentals of Statistics
-- [ ] MIT 6.042 J Mathematics for Computer Science
-- [ ] MIT Intro to Mathematical Reasoning
-- [ ] MIT Principles of discrete Applied mathematics
-- [ ] MIT 18.510 Introduction to Mathematical Logic and Set Theory
-- [ ] MIT 18.504 Seminar in Logic
-- [ ] MIT 18.515 Mathematical Logic
-- [ ] Set theory
-- [ ] Proof & Problem Solving
-- [ ] Advanced Calculus
-- [ ] MIT 18.700 Advanced Linear Algebra
+- [ ] 18.05 Introduction to Probability and Statistics
+- [ ] 6.3700 Introduction to Probability
+- [ ] 6.3800 Introduction to Inference
+- [ ] 18.05 Introduction to Probability and Statistics
+- [ ] 18.600 Probability and Random Variables
+- [ ] 18.650 Fundamentals of Statistics
+- [ ] 6.042 J Mathematics for Computer Science
+- [ ] Intro to Mathematical Reasoning
+- [ ] Principles of discrete Applied mathematics
+- [ ] 18.510 Introduction to Mathematical Logic and Set Theory
+- [ ] 18.504 Seminar in Logic
+- [ ] 18.515 Mathematical Logic
+- [ ] 18.700 Advanced Linear Algebra
   - [ ] Linear Algebra done right 阅读，阅读笔记见此
   - [ ] [Linear Algebra Done Right Videos (axler.net)](https://www.linear.axler.net/LADRvideos.html) Video Lectures 观看
-  - [ ] MIT 18.700 Readings 完成并总结，总结见此
-  - [ ] MIT 18.700 Assignments 完成并总结
-  - [ ] MIT 18.700 Supplementary Notes 阅读并总结，总结见此
+  - [ ] 18.700 Readings 完成并总结，总结见此
+  - [ ] 18.700 Assignments 完成并总结
+  - [ ] 18.700 Supplementary Notes 阅读并总结，总结见此
   - [ ] [18.700 Course page (mit.edu)](https://math.mit.edu/~dav/700.14.html) 现代版 Reading 完成并总结，总结见此
   - [ ] [18.700 Course page (mit.edu)](https://math.mit.edu/~dav/700.14.html) 现代版 Problem Sets 完成并总结，总结见此
   - [ ] [Math 115A (ucla.edu)](https://www.math.ucla.edu/~tao/resource/general/115a.3.02f/) 陶哲轩亲授，笔记见此 [linear-algebra-notes.pdf (wordpress.com)](https://terrytao.wordpress.com/wp-content/uploads/2016/12/linear-algebra-notes.pdf)
-- [ ] Advanced Differential Equations
-- [ ] Advanced Statistics
-- [ ] MIT 18.303 Linear Partial Differential Equations: Analysis and Numerics
+- [ ] 18.303 Linear Partial Differential Equations: Analysis and Numerics
   - [ ] Strang, Gilbert. *Computational Science and Engineering*. 阅读并总结
   - [ ] [https://www.amazon.com/Introduction-Differential-Equations-Undergraduate-Mathematics/dp/3319020986](https://www.amazon.com/Introduction-Differential-Equations-Undergraduate-Mathematics/dp/3319020986) 阅读并总结
   - [ ] [mitmath/18303: 18.303 - Linear PDEs course (github.com)](https://github.com/mitmath/18303) Notes 阅读
@@ -927,22 +921,21 @@
   - [ ] 矩阵计算
   - [ ] 矩阵分析
   - [ ] 矩阵论
-- [ ] MIT 18.330 Introduction to Numerical Analysis
-- [ ] MIT 18.04 Complex Variables with applications
-- [ ] 数学物理方法
+- [ ] 18.330 Introduction to Numerical Analysis
+- [ ] 18.04 Complex Variables with applications
 - [ ] 18.100A Real Analysis
 - [ ] 18.100B Real Analysis
 - [ ] 18.100P Real Analysis
 - [ ] 18.100Q Real Analysis
-- [ ] MIT 18.S190 [Introduction To Metric Spaces](https://ocw.mit.edu/courses/18-s190-introduction-to-metric-spaces-january-iap-2023/) 或 [18.S190, IAP 2023 (mit.edu)](https://web.mit.edu/paigeb/www/18.S190/)
-- [ ] MIT 18. S191 [index — Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall23/)
-- [ ] MIT 18.701 Algebra I
-- [ ] MIT 18.335[J] Introduction to Numerical Methods
+- [ ] 18.S190 [Introduction To Metric Spaces](https://ocw.mit.edu/courses/18-s190-introduction-to-metric-spaces-january-iap-2023/) 或 [18.S190, IAP 2023 (mit.edu)](https://web.mit.edu/paigeb/www/18.S190/)
+- [ ] 18. S191 [index — Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall23/)
+- [ ] 18.701 Algebra I
+- [ ] 18.335[J] Introduction to Numerical Methods
 - [ ] 6.7300[J] Introduction to Modeling and Simulation
 - [ ] 16.920[J] Numerical Methods for Partial Differential Equations
 - [ ] 18.085 Computational Science and Engineering I
-- [ ] MIT 18.336[J] Fast Methods for Partial Differential and Integral Equation
-- [ ] MIT 18. C 06 Linear Algebra and Optimization
+- [ ] 18.336[J] Fast Methods for Partial Differential and Integral Equation
+- [ ] 18. C 06 Linear Algebra and Optimization
   - [ ] Linear Algebra and Optimization for Machine Learning 阅读
   - [ ] [cis515-13-sl1-a.pdf (upenn.edu)](https://www.cis.upenn.edu/~cis5150/cis515-13-sl1-a.pdf)
   - [ ] [Introduction to Applied Linear Algebra – Vectors, Matrices, and Least Squares (stanford.edu)](https://web.stanford.edu/~boyd/vmls/)
@@ -965,10 +958,10 @@
   - [ ] 《University Physics》阅读并做笔记，笔记见此
   - [ ] Yale Fundamentals of physics I 学习
   - [ ] Yale Fundamentals of physics II 学习
-  - [ ] MIT Classical Mechanics 学习
-  - [ ] MIT Physics II: Electricity and Magnetism 学习
-  - [ ] MIT Relativity 学习
-  - [ ] MIT [Physics III: Vibrations and Waves](https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/) 学习
+  - [ ] Classical Mechanics 学习
+  - [ ] Physics II: Electricity and Magnetism 学习
+  - [ ] Relativity 学习
+  - [ ] [Physics III: Vibrations and Waves](https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/) 学习
 - [ ] 18.415[J] Advanced Algorithms
 - [ ] 18.416[J] Randomized Algorithms
 - [ ] 18.425[J] Foundations of Cryptography
