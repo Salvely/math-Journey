@@ -14,7 +14,7 @@
   - [x] [Surface And Flux Integrals, Parametric Surf., Divergence/Stoke&#39;s Theorem: Calculus 3 Lecture 15.6_9 - YouTube](https://www.youtube.com/watch?v=sQ0BJ3H-cZ8&list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7&index=34&pp=iAQB) 学习（这一节也可以不看，这个老师比较形象的描述了定理，但是给的证明不是特别充足）
   - [x] [Calculus II - Series &amp; Sequences (lamar.edu)](https://tutorial.math.lamar.edu/Classes/CalcII/SeriesIntro.aspx) 这个系列对于级数的讲解非常好，比微积分课本要清晰，可以参考阅读，但是问题也在于中间插入了大量的例题，导致思路连贯性下降（这好像是初等微积分的教材和讲义的特点了）
   - [x] [Calculus 2 Lecture 9.8: Representation of Functions by Taylor Series and Maclauren Series (youtube.com)](https://www.youtube.com/watch?v=3VHol7eosLA) 观看（这个老师对概念讲解的很清楚）
-  - [x] Ron Larson Calculus 课本阅读，阅读总结见此： `<a href="/math/Ron Larson Calculus 阅读笔记.pdf">` Ron Larson 《Calculus》阅读笔记 `</a>`
+  - [x] Ron Larson Calculus 课本阅读
 - [ ] 数学推理入门（Logic, mathematical reasoning/inference/proof）
   - [ ] [Book of proof](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf#page=77) 阅读并完成所有习题
     - [ ] 集合论与数理逻辑学习
