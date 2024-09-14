@@ -1,0 +1,587 @@
+
+- [ ] 集合论与数理逻辑学习
+- [ ] 有理数定义的来源
+- [ ] 无理数定义的来源
+- [ ] 为什么有理数和无理数能够合成整个实数域？
+- [ ] 无理数和有理数在数轴上怎样分布？
+- [ ] 笛卡尔积满足结合律吗
+- [ ] 笛卡尔积对交和并运算满足分配律吗
+- [ ] Well ordering Principles 理解
+- [ ] Division algorithm 理解
+- [ ] Well-ordering principle & Division Algorithm Proof (数论，组合学)
+- [ ] 集合的定义？一个数本身就是一个集合？
+- [ ] Russell’s Paradox 理解？
+- [ ] Zermelo-Fraenkel axioms 理解？
+- [ ] 实现一个命题判断程序+句子改写+命题推理功能 ？
+- [ ] modus ponens rule ?
+- [ ] modus tolles ?
+- [ ] elimination ?
+- [ ] 其他 3 个推理定律？
+- [ ] 组合计数学习
+- [ ] 乘法定理的应用条件
+- [ ] 概率论学习
+- [ ] Preposition logic and set operation 的关系
+- [ ] 离散数学学习
+- [ ] 扑克牌算法研究
+- [x] 为什么 0 的阶乘和 1 的阶乘一样等于 1
+- [ ] K-permutation 公式是如何得到的？
+- [ ] What is the smallest n for which n! has more than 10 digits?
+- [ ] For which values of n does n! have n or fewer digits?
+- [ ] determine how many 0’s are at the end of the number 100!.
+- [ ] Gamma function and the factorial function
+- [ ] 数论学习
+- [ ] 组合学学习
+- [ ] 组合数计算时的对称性
+  - 从组合公式上可以看出，因为分母是 $k!$ 和 $(n-k)!$ 相乘
+  - 从公式原理上看，从 $n$ 个里面选 $k$ 个，就等同于从 $n$ 个里面选 $n-k$ 个
+- [ ] 杨辉三角，二项式定理及其相关问题，还有一些其他的相关推论
+- [ ] 0 的 0 次幂
+- [ ] Multiset counting
+  - 对于普通的 Multiset 划分，使用插杠法
+  - 对于多个 mulplicity 的 permutation 计算
+	- 将阶乘结果除以各个类别的全排列的连乘
+	- 或者对每个类别挨个进行组合选择，对组合进行连乘
+- [ ] Division principle -> Pigeonhole principle
+  - [ ] 几何上的应用
+  - [ ] 直接应用
+  - [ ] 与同余定理结合使用，挑选数字
+- [ ] 同余定理，中国剩余定理（数论）
+- [ ] 组合证明
+  - 代数上的证明
+  - 利用组合的含义直接理解
+  - 将两者结合理解
+- [ ] 基本证明方法
+  - [ ] Direct proof
+	- [ ] 几个关键含义
+	  - [ ] theorem
+	  - [ ] proof
+	  - [ ] definition
+		- [ ] Divides 的定义
+		- [ ] Prime 素数和 composite 合数的定义
+		- [ ] 最大公约数 gcd
+		- [ ] 最小公倍数 Lcm
+		- [ ] 为什么有些东西没有数学定义？给出一些不需要定义的数学示例（加减乘除之类）
+		- [ ] Division algorithm 再现
+		- [ ] 唯一分解定理/算数基本定理的证明（每个正整数都仅有一个质数分解方式）
+		- [ ] 直接推理（direct proof），即 if P，then Q 的结构
+	  - [ ] Proposition
+	  - [ ] Lemma
+	  - [ ] Corollary
+	- [ ] Conditional Statement 直接证明法
+	  - 原理
+		- 我们想要证明的是 $P\implies{Q}$ 正确
+		- 根据 `if P,then Q` 的含义，及真值表的特点来看。如果 `P` 是 `False`，那么 $P\implies{Q}$ 直接就是 `True` 无需证明；对于 `P` 是 `True` 的情况，如果 `Q` 是 `False`，那么结果也是 `False` 了。因此要让 $P\implies{Q}$ 为 `True`，我们需要 `P` 也是 `True`，`Q` 也是 `True`；`P` 为 `True` 是已知的，但是 `Q` 为 `True` 是不知道的，因此我们想要从 `P` 为 `True` 推理出 `Q` 为 `True`，最后得出 $P\implies{Q}$ 的结论
+		- 因此对于 $P\implies{Q}$ 的推理，我们的第一步是陈述 $P$ 为 `True`，最后一步是陈述 $Q$ 为 `True`，中间的步骤是从 `P` 到 `Q` 的推理
+	  - 格式
+		- 对于 $P\implies{Q}$ 的推理，我们的第一步是陈述 $P$ 为 `True`，最后一步是陈述 $Q$ 为 `True`，中间的步骤是从 `P` 到 `Q` 的推理
+		- 使用 `Proof.` 开始证明，最后用一个黑框框结尾
+		- 可以从定义出发，一步步的推导出来
+	  - Theorem 验证：多用例测试，对于其中的元素的正负性和是否为 0 进行分别讨论。如果各个条件下结论都成立，那么结论成立。
+	  - 经典例题
+		- $m=n$ 的证明（使用 `lcm`）
+		- 测试对于任意的 $n\in{N}$，都有 $1+(-1)^{n}(2n-1)$ 是 4 的倍数
+		- 反过来测试对于 4 的任意倍数 $a$，都存在一个 $n$，使得 $4a=1+(-1)^{n}(2n-1)$
+		- 对于多种情况进行考虑，分类讨论即可
+		- 重复的用例无需交换次序重复测试，只需要添加一段说明文字 `Without loss of generality` 即可，比如 `Without loss of generality, suppose m is even and n is odd`
+		- Suppose a is an integer. If 7 | 4a, then 7 | a.
+		- If $n\in{Z}$, then $n^2+3n+4$ is even.
+		- Suppose a,b $\in$ N. If gcd(a,b) > 1, then b | a or b is not prime.
+		- 从 2 n 个元素中选择 n 个元素，证明组合的个数是个偶数（巧妙运用组合的含义和补集的定义）
+		- 证明 $c\cdot gcd(a,b)\le{gcd(a,b)}$
+	  - [ ] 素数的定理：素数 p 如果整除 ab，那么要么整除 a，要么整除 b. 证明
+	  - [ ] 反证法的使用
+	  - [ ] 算术基本定理
+	  - [ ] 初等数论
+	  - [ ] 整数环上的素数是用不可约定义的
+	  - [ ] 带余除法
+	  - [ ] 乘积整除 n  那必然有一个因数整除
+	  - [ ] 代数几何证明中国剩余定理
+	  - [ ] 整数是最小的零特征非零整环
+	  - [ ] 证不可约整数一定是素数
+	  - [ ] 欧几里得引理及其证明
+	  - [ ] 证明一个函数 $5n^2+3n+7$ 在 $n$ 为整数时，其值都是奇数
+	  - [ ] Lcm 和 gcd 相关证明掌握
+	  - [ ] 从 2n 个元素中选出 n 个，得到的结果是个偶数
+	  - [ ] 对于 $P\implies{Q\lor R}$ 的推理过程
+  - [ ] 逆否命题推理（`Contrapositive`）
+	- 原理
+	  - 逆否命题和原命题等价，但是证明时从 $~Q$ 推导 $~P$
+	- 何时使用
+	  - 部分情况下 `Direct proof` 比较费劲，需要对式子进行一些变化，找到特定的组合，才能得到结果；而如果使用 `Contrapositive proof`，思路更加丝滑
+	  - 部分情况下条件和结论中的符号是 $\notin$、$\nmid$ 以及其他。这样适合使用逆否命题，转化为 $\in$ 和 $|$ ，然后进行下一步推导
+	  - 结论的结构比条件的结构更加简单。如证明当 $n^2$ 是偶数时，$n$ 是偶数。将该题改写为证明当 $n$ 是奇数时，$n^2$ 是奇数
+	- 经典例题
+	  - 证明对于 $x\in{Z}$，如果 $7x+9$ 是偶数，那么 $x$ 是奇数
+	- 同余（`Congruence`）
+	  - 定义为 $a-b | n$，写作 $a\equiv{b}$，也就是 $a$ 和 $b$ 除以 $n$ 的余数相等
+	  - 如果两个数同余，那么他们的平方对 $n$ 的余数也相等
+	  - 如果两个数同余，用一个自然数 $c$ 与他们相乘，得到的结果对 $n$ 的余数也相等
+	  - [ ] 同余的相关引理证明
+	- 一些证明时需要注意的内容
+	  - 用单词而不是数学符号开头
+	  - 句子开头的字母是大写，而数学符号中对大小写很敏感。这样做能够防止数学符号莫名其妙的变成大写。而且用单词开头，增加了句子的完整性
+	  - 每个句子最后都有一个句号 `.`
+	  - 用英文单词和句子，把数学表达式分隔开，不要让几个数学表达式直接连结在一起
+	  - 不要用错符号，不要把数学符号当成单词插入到句子里面
+	  - 不要插入没有必要的数学符号，也不要在没有必要的时候使用数学符号
+	  - 使用第一人称复数，即 `We`，`Us`
+	  - 使用比较轻松活泼的语气，读起来比较令人愉快，让读者读起来不那么冰冷
+	  - 解释每个使用的新符号，防止读者跑到前面去找
+	  - 避免使用 `it` 指代，以免读者不知道它指的是啥
+	  - 使用 `Since,Because,as,for,so`，下列几种是 **$P\implies{Q}$ 且 $P$ 为 `True`，那么 $Q$ 为 `True`** 的一些说法（注意不是 $P\implies{Q}$，还要求 $P$ 为 `True`）
+		- Q since P
+		- Since P, Q
+		- Q because P
+		- Because P, Q
+		- Q, as P
+		- Q, for P
+		- P, so Q
+		- As P, Q
+	  - `Thus,hence,therefore,consequently` 接前面的 statement，其后跟一个 statement
+	  - 数学语言越清楚越好，这需要长期的练习，以及多多阅读其他人写的比较好的证明过程
+	- 经典例题
+	  - [ ] gcd 相关证明
+		- 需要注意的是，`gcd` 和 `lcm` 相关的性质证明类似，需要根据其本身特性和两边比较进行解答。比如要证 $m={n}$，我们首先要证明 $m\ge{n}$，然后要证明 $m\le{n}$，最后才能得出 $m=n$ 的结论（`math.stackexchange` 上好多回答都不是很严谨，没有证明等号两边相等）
+		- 经典例题
+		  - If integers a and b are not both zero, then gcd(a,b) = gcd(a b,b).
+		  - Suppose the division algorithm applied to a and b yields $a = qb + r$. Prove gcd(a,b) = gcd(r,b).
+		  - If $a \equiv b$ (mod n), then gcd(a,n) = gcd(b,n).
+		- [ ] 了解一些关于最大公约数的性质和定理
+	  - [ ] 组合相关证明：证明当 $n=2^k-1$ 时，每个二项式系数都是奇数 （这题不会）
+	  - [ ] 因式分解复习（如 $a^n+b^n$ 和 $a^n-b^n$）
+		- 相关例题：令 $n\in{N}$，证明如果 $2^n-1$ 是质数，那么 $n$ 是质数（也就相当于证明 $n$ 是合数，将 $n$ 分解成 $ab$，那么 $2^{ab}-1$ 可以继续进行因式分解，因为可以因式分解成多个非 1 数的乘积，因此它是合数）
+  - [ ] 反证法 (`Proof by contradiction`)
+	- 普通形式的反证法，即通过反证法证明一个结论 $P$ 为真
+	  - 原理
+		- 设结论为假，反向推导出矛盾，以否定这个结论
+		- 真值表上 $P$ 的真值和 $\lnot P\implies{C\land{\lnot C}}$ 相同
+		  - 因为 $P\implies{Q}$ 可以翻译为 $\lnot P\lor Q$
+		  - 因此 $\lnot P\implies{C\land\lnot C}$ 可以翻译为 ${P}\lor({C\land{\lnot{C}}})$
+		  - 由于 $C\land\lnot{C}$ 永远为 `False`，因此该项的真值就取决于 $P$的真值
+		  - 因此要证明 $P$ 和证明 $\lnot P\implies{C\land\lnot{C}}$ 相同
+	  - 方法：首先写出 $\lnot P$，然后逐步推导出 $C\land\lnot{C}$。$\lnot P$ 时第一步，$C\land\lnot{C}$ 是最后一步。$C$ 可能不是命题中的一部分，是某个可以推导出的矛盾点。
+	  - 经典例题
+		- 证明 $\sqrt{2}$ 是无理数
+		  - 这里有一些关于实数的定义问题了
+			- [ ] 为什么有理数那样定义
+			- [ ] 为什么不是有理数就是无理数
+			- [ ] 有理数和无理数在数轴上是怎样分布的
+			- [ ] 复数又是什么？它和实数分别位于什么空间？它是怎么存在的？
+		  - 有理数的定义：可以由两个整数相除表示
+		  - 无理数：不是有理数就是无理数
+		  - 方法：从有理数的定义出发，隐含的条件是如果有分数 $\frac{a}{b}$ 的形式存在，那么这两个数必然不同时为偶数，否则会有共同的因子 2 消去。因此，这两个数一奇数一偶数。我们将式子两边进行平方，可以推出 $a^2$ 是偶数，那么由之前的结论可得 $a$ 是偶数。将 $a$ 改写为 $a=2c$ 的形式带入，又可得 $b^2$ 是偶数。因为 $b^2$ 是偶数，那么由之前的结论可得，$b$ 是偶数。因为之前我们认为 $a$ 和 $b$ 一个奇数一个偶数，$a$ 是偶数，那么 $b$ 应该是奇数。但是这里 $b$ 是偶数，因此出现了矛盾。得出 $\sqrt{2}$ 是无理数。
+		- 证明素数有无穷多个
+		  - 这里有一些关于素数的问题了
+			- [ ] 为什么素数有无穷多个
+			- [ ] 欧几里得引理
+			- [ ] 算术基本定理：每个大于 1 的整数都可以表示为多个质数的乘积（如何证明？）
+		  - 主要方法：通过将所有质数乘起来，然后加 1，构造一个数。该数应该是某个质数和一个系数的乘积。两边同时除以该质数因子。一边为整数，一边不是整数。导出了矛盾，因此质数是无限的。
+			- [ ] 这个方法能够导出矛盾的根本原因是什么？
+			- [ ] 还有没有其他的方法证明素数的个数是无限的？
+	- $\forall x,P(x)$ 类型的证明
+	  - 原理
+		- 找是否 $\exists x，\lnot P(x)$；如果找不到，那么就证明 $P(x)$ 对任意 $x$ 都成立
+	  - 经典例题
+		- 证明每个 $x\in[0,\frac{\pi}{2}]$，$\sin{x}+\cos{x}\ge{1}$
+	- `Conditional Statement` （即 `if P, then Q` 形式）的反证法证明
+	  - 原理
+		- 需要注意的是，反证否定整个结论。在之前我们的结论是 $P$，因此否定后的结论是 $\lnot P$。现在我们 $P\implies{Q}$，那么否定后的结论就是 $\lnot({P\implies{Q}})$
+		- 我们的目的是从 $\lnot({P\implies{Q}})$ 为 `True` 开始证，也就是说 $P\implies{Q}$ 为 `False`
+		- 分析 $P\implies{Q}$，我们知道只有在 $P$ 为 `True` 且 $Q$ 为 `False` 时结论为 `False`。那么就从这里开始证，也就是第一步设定 $P$ 且 $\lnot{Q}$。最后推导出一个矛盾。
+	  - 经典例题
+		- 证明如果 $a^2$ 是偶数，那么 $a$ 是偶数
+		  - 首先我们**声明采用反证法**，假设 $a^2$ 是偶数且 $a$ 是奇数
+		  - 那么设 $a=2n+1$，那么 $a^2=4n^2+4n+1=2(2n^2+2n)+1$，为奇数
+		  - 产生矛盾，证毕
+	- 使用经验
+	  - 多种证明方法综合使用：可能总的使用的是 `direct proof`，但是在中间部分结论的证明过程中，可能会使用其他的证明方法，如逆反命题证明法或者反证法等等
+	  - 关于反证法的一些建议：部分反证法和逆否命题推理法相似，注意区分
+	- 经典例题
+	  - 证明某个无理数（如 $\sqrt{2},\sqrt[3]{2},\sqrt{6}$）不是有理数
+		- 经典方法：对于有理数，分子分母一定是一个为奇数，一个为偶数，不可能同为奇数或同为偶数。因此对于一个数是否是有理数的证明，可以转化为让这个无理数等于某个有理数形式，然后转化为证明分子分母的奇偶性不相等
+		- [ ] 使用费马大定理（`fermat's last theorem`）
+	  - 额外典型例题：证明 $\sqrt{3}$ 不是有理数
+		- 核心技巧：证明 $a$ 和 $b$ 都有同一个因子 3，这样有理数会约分，那么假设 $\sqrt{3}=\frac{a}{b}$ 就不符合了
+		- 两边同时进行平方，得到 $a^2=3b^2$，那么可得 $3|a^2$
+		- 下面是关键步骤，**使用逆否命题证明方法由 $3|a^2$ 得到 $3|a$**
+		  - 这里是 $P\implies{Q}$ 形式，逆否命题的证明方法是由 $3\nmid a$ 出发，得到 $3\nmid a^2$
+		  - 由于 $3\nmid a$，那么假设 $\frac{a}{3}$ 有两种余数：1 和 2
+		  - 设余数为 1，那么 $a=3q+1$，那么 $a^2=9q^2+6q+1$，$3\nmid a^2$
+		  - 设余数为 2，那么 $a=3q+2$，那么 $a^2=9q^2+12q+4$，$3\nmid a^2$
+		- 因为 $3|a$，因此设 $a=3d$，带入得到 $b^2=3d^2$
+		- 下面证明**由 $3|d^2$ 得到 $3|d$**，使用同样的逆否命题推理方法，从 $3\nmid d$ 推导到 $3\nmid d^2$
+		- 因为 $3|a$ 且 $3|b$，不满足有理数最简形，因此 $\sqrt{3}$ 不是有理数
+	  - 使用反证法，利用奇偶性，引出整数和分数相等的矛盾
+		- If $a,b\in Z$, then $a^2-4b-3\ne{0}$.
+		  - 反证法的原理是：设 $a,b\in Z$, 且 $a^2-4b-3={0}$
+		  - 那么 $a^2=4b+3=4b+2+1=2(2b+1)+1$ 为奇数
+		  - 因为 $a^2$ 为奇数，那么 $a$ 为奇数（前面证过）
+		  - 那么我们让 $a=2c+1$，带入到式子中，得到 $4c^2+4c+1=4b+3$
+		  - 因此有 $4c^2+4c-4b=2$，也就是说 $c^2+c-b=\frac{1}{2}$
+		  - 式子的左边是整数，右边是分数，两边不可能相等，产生矛盾
+		  - 因此可以得出结论
+	  - [ ] 集合相关证明
+		- [ ] 集合论学习
+		- [ ] 集合的差运算是如何进行数学定义的？是否具有分配律？对其进行证明？
+	  - If $b \in{Z}$ and $b\nmid{k}$ for every $k\in{N}$, then $b=0$：==注意== 因为 $b$ 是整数，而 $k$ 是自然数，因此需要分类讨论 $b>0$ 和 $b<0$ 的情况
+	  - [ ] 综合例题
+		- [ ] `初等数论` 教材搜集并学习
+		- [ ] `Fermat's two square theorem`
+		- [ ] 同余相关学习
+		- [ ] `sum of 2 squared` 性质学习
+		- [ ] 初等数论学习
+		- 提示
+		  - 首先证明 $a^2+b^2=3c^2$ 无除 $(0,0,0)$ 外的有理数解
+			- 探查一下平方和对 4 求模的余数
+			- 然后证明 $(0,0,0)$ 是唯一解
+		  - 接下来使用反证法，设 $a^2+b^2=3$ 存在有理数解。利用有理数的定义推导出一个矛盾来
+		- 证明不存在 $x,y\in{Q}$，使得 $x^2+y^2-3=0$
+		  - 我们需要将问题拆解为以下几个小的证明
+			- 证明不存在 $x,y,z\in{Z}$，使得 $x^2+y^2=3z^2$ 成立
+			  - 两个问题
+				- 怎么证明 $x^2+y^2(x,y\in{Z})$ 是 3 的倍数？
+				- 如果 $x^2+y^2$ 是 3 的倍数，那么怎么证明 $z$ 是个整数？
+			- 证明 $(0,0,0)$ 是唯一解
+			- 证明 $a^2+b^2=3$ 不存在有理数解
+		- 利用上一问的结论，证明 $\sqrt{3}$ 是无理数
+		- 说明为什么 $x^2+y^2-3=0$ 没有有理数解，能够推理出 $x^2+y^2-3^k=0$ 没有有理数解（$k$ 为正奇数）
+		- 利用上面的结论，证明对于任意的正奇数 $k$，$\sqrt{3^{k}}$ 是无理数
+		- 证明 $\log_{2}^{3}$ 是无理数
+- [ ] 更多证明相关
+  - [ ] 证明 `Non-conditional Statements`
+	- [ ] `if and only if Statement ` 证明
+	  - `if and only if` 即 $P\leftrightarrow{Q}$
+	  - 在证明时我们既需要证明 $P\implies{Q}$，也需要证明 $Q\implies{P}$
+	  - 在证明时可以使用 `direct proof / contrapositive proof / proof by contradiction` 三种方法
+	  - 在证明时分成两段，第二段开头可以用 `Conversely`
+	  - 经典例题
+		- $6 \mid a-b$ `if and only if` $2 \mid a-b$ and $3 \mid a-b$
+		- ==注意== 向右边证很容易，但是要向左边证明的话，需要巧妙地利用奇偶性
+		- 因为 $2\mid a-b$，因此 $a-b=2n(n\in{Z})$，此外，$a-b$ 是个偶数
+		- $a-b = 3l(l\in{Z})$，因为 $a-b$ 是个偶数，因此 $l$ 必然是个偶数，因此 $l=2m,m\in{Z}$
+		- 那么 $a-b$ 就可以写成 $a-b=3l=3\cdot 2m=6m$，由此得出 $6\mid a-b$
+	- [ ] `Equivalent Statement` 证明
+	  - 原理
+		- 复习一下 $P\implies{Q}$，只有当 $P$ 为 `True` 且 $Q$ 为 `False` 时，该命题才为 `False`，其他时候都是 `True`
+		  - 因为等价命题链条中所有的 `conditional statement` 都为 `True`，因此如果一个命题为 `True`，那么它后面接着的命题必须为 `True`。一旦有一个命题为 `False`，那么它前面所有相连的命题必然为 `False`。
+		- 此外，对于 $P\leftrightarrow{Q}$，$P$ 和 $Q$ 的等价性相同
+	- 存在性证明，存在性和唯一性证明
+	  - 多数 `if xxx,then xxx` 是 `conditional statement`，一般可以用 $\forall x,P(x)$ 表示
+	  - 对于 $\exists x,P(x)$ 的证明，直接举例即可
+	  - 其他的可以用 $\exists x,P(x)$ 表示，我们要做的是找到一个符合 $P(x)$ 的例子
+		- [ ] 存在一个数，它可以由两种不同的两数立方和表示（1729）
+	  - 但是通常来说只找到一个例子是不够有说服力的，我们需要提供证明
+	  - 存在性例题
+		- 如果 $a,b\in{N}$，那么存在整数 $k,l$ ，使得 $gcd(a,b)=ak+bl$
+		  - [ ] `gcd` 和 `lcm` 的一些特性和证明需要学习
+		  - [ ] 依然是需要初等数论的学习
+		  - [ ] Bézout's lemma/identity
+		  - [ ] Division algorithm 及其证明学习
+		  - [ ] Well-ordering theorem 及其应用
+		  - 我的分析
+			- 本题是让我们证明**存在性**，$a$ 和 $b$ 的最大公约数是 $a$ 和 $b$ 的某种组合
+			- 根据本题目的形式，我们采用 `direct proof`
+			- 几个要点
+			  - 这里的 $a$ 和 $b$ 是任意的正整数，不是特定的正整数
+			  - 我们需要找到存在的整数 $k$ 和 $l$
+			  - `gcd` 是最大公约数的定义，有两个要点，一个是最大，一个是公约数
+			  - `gcd` 的形式必须满足 $ak+bl$
+			- 如何入手
+			  - 从左往右探讨
+				- $a$ 和 $b$ 的最大公约数为 $d$，那么存在 $d\mid a$ 且 $d\mid b$ 。也就是说存在 $k_{1}$ 和 $k_{2}$，使得 $d=k_{1}a$，且 $d=k_{2}b$
+				- 此外 $d$ 大于任何其他的约数（怎么保证？）
+				  - [ ] `gcd` 的性质学习
+				- 我们需要证明存在某个 $k,l$，使得 $d$ 的形式为 $ak+bl$（怎么证明？卡壳了...）
+			  - 从右往左探讨
+				- 首先讨论 $ax+by$ 的范围，其包括了很多正整数和负整数还有 0
+				- 我们需要明确的是，无论 $a$ 和 $b$ 是正还是负，其最大公约数都为正数且小于 $a$ 和 $b$，那么如何确定这个最大公约数是多少？
+				- 卡壳了...
+		  - 答案解析
+			- Division theorem 及其证明复习：Any integer a can be divided by a non-zero integer b, resulting in a quotient q and remainder r. Given integers a and b with b > 0, there exist unique integers q and r for which $a = qb + r$ and $0\le{r}\lt{b}$
+			- 首先讨论 $A=\{ax+by|x,y\in{Z}\}$ 的范围，其包含正数，负数和 0
+			- 令 $d$ 为 $A$ 中最小的正数，那么存在 $k$ 和 $l$ 满足 $d=ka+lb,k,l\in{Z}$（后面会发现为什么 $A$ 中最小的正数就刚好是 $gcd(a,b)$）
+			- 下面我们来证这个数是 $gcd(a,b)$，证明分两步走。一是证明这个数是 $a$ 和 $b$ 的公约数，二是证明这个数是公约数里面最大的
+			- 首先证明 $d|a$ 和 $d|b$
+			  - 设 $a=qd+r$（为什么这么写，是因为我们一开始不知道 $a$ 是否能整除 $d$），那么存在唯一的 $q$ 和 $0\le{r}\lt{d}$，使得式子成立
+			  - 我们要证明整除，就需要证明 $r=0$。由之前的式子可得 $r=a-qd=a-q(ka+lb)=(1-qk)a-qlb$。因此 $r$ 存在 $ax+by$ 的结构，属于集合 $A$。**又因为 $0\le{r}\lt{d}$ 且 $d$ 是集合 $A$ 中最小的正整数**，因此 $r=0$。可得 $d|a$
+			  - $d|b$ 的证明方法同上。
+			- 下面我们证明 $d$ 是公约数里面最大的
+			  - 因为 $gcd(a,b)$ 是 $a$ 和 $b$ 的最大公约数
+			  - 那么设 $a=gcd(a,b)m$ ，$b=gcd(a,b)n$
+			  - 那么 $d=ka+lb=kmgcd(a,b)+lngcd(a,b)=gcd(a,b)(km+ln)$
+			  - 因此 $d\ge{gcd(a,b)}$
+			  - 又因为 $d$ 是 $a,b$ 的公约数，不可能大于 $gcd(a,b)$
+			  - 因此 $d=gcd(a,b)$
+			- 证明完结
+	  - 唯一性例题
+		- Suppose $a,b\in{N}$. Thenthere exists a unique $d\in N$ for which: An integer $m$ is a multiple of $d$ if and only if $m=ax+by$ for some $x,y\in Z$.
+		- 几个要点
+		  - $a,b,d$ 是自然数
+		  - 需要证明 $d$ 的存在及**唯一性**
+		  - 需要证明 $P\implies{Q}$ 和 $Q\implies{P}$
+		  - $P$ 是 $d\mid m$
+		  - $Q$ 是 $m=ax+by,x,y\in{Z}$
+		- 答案解析
+		  - 我们首先需要证明存在，然后证明唯一性
+		  - 存在证明
+			- $P\implies{Q}$ 证明
+			  - 我们**设 $d=gcd(a,b)$**，且 $m=dn,n\in{Z}$
+				- ==注意：== 因为对于 $m$ ，当 $x=1,y=0$ 时 $m=a$，有 $a$ 是 $d$ 的倍数；当 $x=0,y=1$ 时 $m=b$，有 $b$ 是 $d$ 的倍数；但是令 $d=gcd(a,b)$ 只能提供一个存在性的例子，至于为什么它是唯一的而其他的 $a$ 和 $b$ 的公约数不满足题目条件，后面在证明唯一性的时候会看到为什么
+			  - 根据前一问的结论，我们知道存在 $k,l\in{Z}$，使得 $d=ka+lb$
+			  - 带入到 $m=dn$ 中，可得 $m=n(ka+lb)=(nk)a+(nl)b$
+			  - 因此有 $m=ax+by(x=nk,y=nl)$
+			- $Q\implies{P}$ 证明
+			  - 因为有 $m=ax+by,x,y\in{Z}$
+			  - 又因为 $d=gcd(a,b)$，因此有 $a=dc,b=de,c,e\in{Z}$，那么 $m=(dc)x+(de)y=d(cx+ey)$，因此有 $d\mid m$
+		  - 唯一性证明
+			- 唯一性的证明方法是引入 $d'$，$d'$ 满足 $d'\mid m$
+			- 我们最后想要得到的结论是 $d'=d$
+			- 唯一性的主要证明方法类似前面的 $m=n$ 的相关证明。要证明 $m=n$，就先证明 $m\ge{n}$，然后证明 $m\le{n}$
+			- 首先证明 $d'\le{d}$
+			  - 根据定理，当 $x=1,y=0$ 时，$m=a$ 是 $d'$ 的倍数；当 $x=0,y=1$ 时，$m=b$ 是 $d'$ 的倍数
+			  - 因为 $d'\mid a$ 且 $d'\mid b$，因此有 $d'$ 是 $a,b$ 的公约数，有 $d'\le{gcd(a,b)}$
+			- 然后证明 $d'\ge{d}$
+			  - 当 $m=d'\cdot 1=d'$，又因为 $m=d'$，而 $m=d'=ax+by$
+			  - 由前面的 $a=dc,b=de$ 可得，$d'=dcx+dey=d(cx+ey)$
+			  - 因此 $d'\ge{d}$
+			- 综合可得 $d=d'$，唯一性证毕
+	  - [ ] 需要更多存在和唯一性证明的案例
+	- `Constructive` vs `Non-constructive` proof
+	  - 定义
+		- `Contructive proof` display an explicit example that proves the theorem;
+		- `Non-constructive proof` prove an example exists without actually giving it.
+		- [x] 这两者的定义有什么区别吗？
+		  - `non-Constructive proof` 无法给出直接的案例，你只能知道它存不存在
+		  - `Constructive proof` 可以给出案例
+		- [ ] 公理和排中律又是什么东西？
+	  - 经典例题：证明存在能够使 $x^y$ 为有理数的无理数 $x$ 和 $y$（可能相等）
+  - 经典例题
+	- If $a\in{Z}$, then $a^2\equiv{a}$ (mod 3)
+	  - 相当于证明 $3\mid a^3-a$
+	  - [ ] `Fermat's little theorem` 学习（数论，质数相关）
+	  - [ ] 质数分解，求模运算和同余相关内容学习
+	  - 这和之前的一个题目类似，证明 5 个连续数字的乘积总是 120 的倍数
+		- 一方面这个可以使用组合数证明
+		- 另一方面，连续三个数字，总有一个是三的倍数，因此 $a^3-a=(a+1)a(a-1)$ 总是 3 的倍数，那么得出题目结论
+	- Suppose a,b Z. If ab is odd, then $a^2+b^2$ is even.
+	  - 存在隐含条件：**$ab$ 如果是奇数，那么 $a$ 和 $b$ 都为奇数**。因为一旦其中有一个是偶数，那么乘积就含有因子 $2$，就不会是奇数了。
+	- [ ] 巩固 `gcd` 和 `lcm` 的相关恒等证明问题（使用其本身的性质和题目所给的条件，分别推导出 $m\le{n}$ 和 $n\le{m}$）
+	- [ ] If $n\in{Z}$, then $gcd(2n+1,4n^2+1)=1$
+	  - 令 $d$ 为公因式
+	  - $dx=2n+1$
+	  - $dy=4n^2+1$
+	  - 使用了非常巧妙的因式分解，将 $4n^2+1$ 分解为 $4n^2-1+2=(2n-1)(2n+1)+2$，然后将 $dx=2n+1$ 带入 $dy$ 的式子
+	  - 导出了 $d(y-2nx+x)=2$，因此 $d=1$ 或者 $d=2$
+	  - 而又因为存在 $dx=2n+1$，因此 $dx$ 一定为奇数
+	  - 那么 $d=1$
+	- [ ] Every real solution of $x^3+x+3=0$ is irrational.
+	- [x] If $p>1$ is an integer and $n\nmid p$ for each integer $n$ for which $2\le{n}\le{\sqrt{p}}$, then p is prime.
+	  - 使用反证法，设 $p=mn$，为合数
+	  - 因为 $m$ 和 $n$ 不可同时大于 $\sqrt{p}$，又因为 $m$ 和 $n$ 不可同时小于等于 $1$
+	  - 因此存在 $1\lt{m}\le{\sqrt{n}}$ 或者 $1\lt{n}\le{\sqrt{p}}$，使得 $n\nmid p$
+	  - 因此导出矛盾，该结论成立
+	- [x] Divison theorem 的 $q,r$ 的唯一性证明
+	  - 借鉴了这个网站上的推理 [Proof of the Divison Algorithm (emory.edu)](https://mathcenter.oxford.emory.edu/site/math125/proofDivAlgorithm/)
+	  - 设存在两对不同的 $q_{1},q_{2},r_{1},r_{2}$，有 $a=bq_{1}+r_{1}$，且有 $a=bq_{2}+r_{2}$
+	  - 那么有 $0=b(q_{2}-q_{1})+(r_{2}-r_{1})$
+	  - 根据 `division theorem` ，有 $0\le r_{2}-r_{1}\lt{b}$
+	  - 对式子进行移向操作可得：$r_{1}-r_{2}=b(q_{2}-q_{1})$
+	  - 那么有 $b \mid r_{1}-r_{2}$
+	  - 只有 0 同时满足 $-b\lt{r_{1}-r_{2}}\le{0}$ 和 $b \mid r_{1}-r_{2}$ 的要求，因此 $r_{1}-r_{2}=0$，由此得到 $r_{1}=r_{2}$
+	  - 因为 $r_{1}=r_{2}$，那么 $q_{1}=q_{2}$，唯一性证明完毕
+	- [ ] 前面的 lemma - Suppose $a,b\in{N}$. Thenthere exists a unique $d\in N$ for which: An integer $m$ is a multiple of $d$ if and only if $m=ax+by$ for some $x,y\in Z$. 的推广应用
+	  - [x] Suppose $a,b,p\in{Z}$ and $p$ is prime. Prove that if $p\mid ab$ then $p\mid a$ or $p\mid b$.
+		- [ ] Euclid's lemma
+		- [ ] Gauss lemma （高斯引理）
+		- [ ] $P\implies{Q\lor{R}}$ 问题的证明
+		- [ ] 反证法证明
+		- [ ] 逆否命题证明法
+		- [ ] 直接证明法
+  - [ ] 集合相关证明
+	- [ ] 基础集合论学习
+	- $\in$ 关系证明
+	  - 对于 $a\in{\{x:P(x)\}}$ 的证明：看 $P(a)$ 是否为 `True`
+	  - 对于 $a\in{ \{x\in{X}:P(x)\} }$ 的证明：首先判断 $a$ 是否属于 $X$，再判断 $P(a)$ 是否为 `True`
+	- $\subseteq$ 关系证明
+	  - 原理：如果 $a\in{A}$，而 $A\subseteq{B}$，那么 $a\in{B}$
+	  - 方法
+		- 直接证明：由 $a\in{A}$ 推出 $a\in{B}$
+		- 逆否命题推理法：由 $a\notin{B}$ 推导出 $a\notin{A}$
+		- 反证法：设 $a\in{A}$ 且 $a\notin{B}$，推导出一个矛盾
+	  - 证明格式
+		- **假设** $a\in\{x\in{Z}:18\mid x\}$，**那么有** $a\in{Z},18\mid a$
+		- 推理过程 Blablabla
+		- **因此** $a$ 可以整除 6，**那么有**$a\in\{x\in{Z}:6\mid x\}$
+		- 我们**由 $a\in\{x\in{Z}:18\mid x\}$ 推导出了 $a\in\{x\in{Z}:6\mid x\}$**
+		- **因此有 $\{x\in{Z}: 18\mid x\}\subseteq\{x\in{Z}:6\mid x\}$**
+	  - 此外，一些非常浅显易懂的结论我们不会去证明，通常是直接使用。例如：如果 $X\subseteq{A}$，那么 $X\subseteq{A\cup{B}}$
+	- [ ] 集合相等关系证明
+	  - 需要证明 $A\subseteq{B}$ 和 $B\subseteq{A}$
+	  - [ ] 证明如果 $b$ 和 $d$ 为质数，$b\mid a$ 且 $d\mid a$，那么 $bd \mid a$（初等数论）
+	  - 经典例题
+		- ==注意==
+		  - 集合的相关定理证明，需要以元素为基准，而不是像之前那样以定义为基准。也就是说，我们应该在证明时举出相关的例子，然后进行运算。而不是纯粹的根据定义来进行推导。
+		  - 推导 $A\subseteq{B}$ 就是从 $a\in{A}$ 推导到 $a\in{B}$，因此我们的推理可以从设 $a\in{A}$ 开始
+		- [x] 证明如果 $A$ 的幂集是 $B$ 的幂集的子集，那么 $A$ 是 $B$ 的子集
+		  - 我们要证明 $A$ 的子集是 $B$ 的子集，也就是对于任意的 $x\in{A}$，都有 $x\in{B}$
+		  - 那么我们设 $a\in{A}$，那么有 $\{a\}\subseteq{A}$
+		  - 因为 $\{a\}\subseteq{A}$，因此有 $\{a\}\in{\mathcal{P}(A)}$
+		  - 因为 $\mathcal{P}(A)\subseteq\mathcal{P}(B)$，因此对于 $\forall X\in\mathcal{P}(A)$，有 $X\in\mathcal{P}(B)$
+		  - 因为 $\{a\}\in\mathcal{P}(A)$，因此有 $\{a\}\in\mathcal{P}(B)$
+		  - 那么有 $\{a\}\subseteq{B}$
+		  - 因此有 $a\in{B}$
+		  - 现在我们由 $a\in{A}$ 推导出了 $a\in{B}$，因此 $A\subseteq{B}$
+		- [x] 证明当 $C\ne\emptyset$，如果 $A\times{C}=B\times{C}$，那么 $A=B$
+		  - [ ] 笛卡尔积的定义复习
+		  - 首先我们证明 $A\subseteq{B}$
+			- 设 $a\in{A},c\in{C}$，那么 $(a,c)\in A\times{C}$
+			- 因为 $A\times{C}=B\times{C}$，那么 $(a,c)\in{B\times C}$
+			- 根据笛卡尔积的定义我们知道，$a\in{B}$
+			- 由 $a\in{A}$ 推导得到了 $a\in{B}$，因此可得 $A\subseteq{B}$
+		  - 下面我们证明 $B\subseteq{A}$
+			- 设 $b\in{B},c\in{C}$，那么 $(b,c)\in B\times{C}$
+			- 因为 $B\times{C}=A\times{C}$，因此 $(b,c)\in{A\times{C}}$
+			- 根据笛卡尔积的定义我们知道，$b\in{A}$
+			- 由 $b\in{B}$ 推导得到了 $b\in{A}$，因此可得 $B\subseteq{A}$
+		  - 因为 $A\subseteq{B}$ 且 $B\subseteq{A}$，因此有 $A=B$
+		- [x] 证明 $A\times({B\cap{C}})=(A\times{B})\cap(A\times{C})$
+		  - [x] 用示例证明
+			- 证明 $A\times({B\cap{C}})\subseteq(A\times{B})\cap(A\times{C})$
+			  - 设$(a,b)\in A\times({B\cap{C}})$
+			  - 那么 $a\in{A},b\in{B\cap{C}}$
+			  - 因为 $b\in B\cap{C}$，因此 $b\in{B}$ 且 $b\in{C}$
+			  - 那么 $(a,b)\in{A\times{B}}$ 且 $(a,b)\in A\times{C}$
+			  - 因此 $(a,b)\in{(A\times{B})\cap(A\times{C})}$
+			  - 因此我们从 $a\in A\times({B\cap{C}})$ 推导得到了 $a\in (A\times{B})\cap(A\times{C})$
+			  - 因此 $A\times({B\cap{C}}) \subseteq (A\times{B})\cap(A\times{C})$
+			- 证明 $(A\times{B})\cap(A\times{C})\subseteq A\times({B\cap{C}})$
+			  - 设 $(a,b)\in (A\times{B})\cap(A\times{C})$
+			  - 因此 $(a,b)\in A\times{B}$ 且 $(a,b)\in A\times{C}$
+			  - 根据笛卡尔积的定义，$b\in B$ 且 $b\in C$，即 $b\in B\cap C$
+			  - 因此有 $(a,b)\in A\times(B\times{C})$
+			  - 我们由 $(a, b)\in (A\times{B})\cap (A\times{C})$ 推导得到了 $(a,b)\in A\times(B\times{C}$
+			  - 因此 $(A\times{B})\cap(A\times{C})\subseteq A\times({B\cap{C}})$
+		  - [x] 用集合运算律证明
+			- ==注意==：$P\iff P\land P$，因此有 $x\in A\iff x\in A\land x\in A$
+			- 在课本 p 164，核心方法如上，将 $x\in A$ 拆成 2 个 $x\in A$ 的交集，然后分割成 2 个交集。最后可以发现这两个集合分别来自两个笛卡尔积。
+		  - 注意区分集合的交并分配律，和 $\land$ 以及 $\lor$ 的交并分配律。前者可以转化成后者。此外，$x\in{A}$ 可以转化为 $x\in{A}\land x\in{A}$ 或者 $x\in{A}\lor x\in{A}$ 然后进行分配律的运算。集合交并问题的公理证明不需要从左推到右和从右推到左。
+		  - 在证明 $x\in{\bar A}$ 时，需要使用 $x\in{U-A}$，然后 $x\in{U}\land x\notin{A}$
+		  - 要善用德摩根律，符号不要搞错了
+		  - 要证明有一个方向推不出来，且直接推/逆否推/反证法不好使的情况，举反例即可
+		  - 对于多个并连接起来的笛卡尔积，注意证明时分类讨论
+		  - [ ] $\bigcap\limits_{a\in{R}}A_{\alpha}$ 这种在一个范围内的交集
+		  - [ ] 离散数学投影符号 $\pi$
+		  - [ ] 笛卡尔积的性质复习
+		  - 在证明过程中有效利用传递性质
+		  - 对一些数论证明题，凑格式：如证明 $\{12a+25b: a,b\in{\mathbb{Z}}\}=\mathbb{Z}$，或者 $12a+4b=4c(a,b,c \in{\mathbb{Z}})$
+		  - 其他集合定律及其证明
+			- [ ] 德摩根律及其证明
+			- [ ] 交运算的分配律
+			- [ ] 并运算的分配律
+			- [ ] 笛卡尔积的分配律
+	  - [ ] 经典案例：Perfect numbers
+		- [ ] Perfect Numbers 其他性质学习
+		- [ ] 欧拉法证明再琢磨一下
+		- [ ] `Mersenne primes` 性质了解
+  - [ ] 证否
+	- [ ] theorem
+	- [ ] Proposition
+	- [ ] lemma
+	- [ ] Corollary
+	- [ ] Conjecture
+	- [ ] Goldbach conjecture
+	- 总体思想：要证明 $P$ 为 `False`，也就等同于证明 $\lnot P$ 为 `True`。
+	  - 可以使用 `direct proof`、`contrapositive proof` 和 `proof by contradiction`
+	  - 对于 $\forall x, P(x)$ 的问题，采用举反例的方式
+	  - 对于 $\forall x, P(x)\implies{Q(x)}$ 的问题。我们要证明 $\exists x$，$P$ 为 `True` 且 $Q$ 为 `False`（因为在 $P\implies{Q}$ 的真值表中，只有在 $P$ 为 `True` 且 $Q$ 为 `False` 时，结果为 `False`）
+	  - 对于 $\exists x, P(x)$ 的问题，需要证明的是 $\forall x, \lnot P(x)$。我们可以使用 `direct proof`、`contrapositive proof` 和 `proof by contradiction`
+	  - 对于本来就是正确的结论，`disproof` 是没有用的。那么我们就需要通过之前学过的方法直接进行证明。
+	  - 使用反证法，导出一个矛盾
+	- 经典例题
+	  - 举反例
+		- 证明对于任意的自然数 $n$，$2n^2-4n+31$ 是个质数（当 $n=31$ 时不成立）
+		- 如果 $x,y\in{\mathbb{R}}$，那么有 $|x|+|y|=|x+y|$
+		- 如果 $n\in\mathbb{Z}$ 且 $n^5-n$ 是偶数，那么 $n$ 是个偶数
+		- 9-10 13-14 18-25 27 31-33
+		- [ ] 集合论学习
+		- [ ] 幂集的相关证明
+		- [ ] 初等数论学习
+		- [ ] 奇数，偶数，有理数，无理数的问题
+		- [ ] 公倍数问题
+		- [ ] 零点问题
+		- [ ] 杨辉三角的规律问题
+		- [ ] 组合学问题
+  - [ ] 数学归纳法
+	- [ ] 其他数学归纳法书籍搜集阅读
+	- [ ] Inductive reasoning
+	- [ ] Bernoulli’s inequality
+	- [ ] 数学归纳法从 `Strong Induction` 开始没看
+- [ ] 关系，函数和基数
+  - [ ] 关系
+	- [ ] 搜索关于 `relation` 的书籍
+	  - 注意 `reflexive` 需要考虑集合中的每个元素，而对称性和传递性不用
+	- [ ] 等价关系和等价类更多的示例
+	- [ ] Equivalence relation 复习
+	- [ ] Equivalence class 复习
+	- 经典例题
+	  - 写出等价类
+	  - 知道等价类的个数和一些元素，写出等价关系
+		- $xRy$ 表明 $(x,y)$ 在 $R$ 中
+		- 因为等价关系具有反射性、对称性、传递性，因此可以推导出 $(x,x)(y,y)(x,y)(y,x)$ 都在 $R$ 中
+	  - 等价关系的交集和并集
+	  - 等价关系的元素个数 & 等价类的元素个数
+	  - 等价类的划分个数
+	  - 最小等价关系
+	  - 等价关系的子集
+	  - 证明有理数等价关系的传递性
+	  - Section 11.3 Exercise 13-15
+	  - [ ] 等价类的个数和集合元素的个数一定相等吗？
+	  - [ ] Bell number
+	  - [ ] 组合学
+	  - [ ] Partition of a set
+	  - [ ] Theorem 11.1 11.2 Exercise 第 4 题证明
+	- [ ] Integer modulo n
+	  - [ ] 加和乘的性质
+	  - [ ] 在表格上怎么看？有什么含义？
+	  - [ ] Numbers system 及其运算学习
+	  - [ ] 搜索抽象代数相关教材及资料
+	  - [ ] 抽象代数学习
+  - [ ] 函数
+	- [ ] 搜集关于 `function` 的书籍
+	- [ ] 函数单射和满射的证明
+	- [ ] Bezout's identity
+	- [ ] Exercise 13-14 18-19
+	- [ ] 鸽巢原理和 injective 还有 subjective 的关系，以及一些例题
+	- [ ] 我太笨了，不知道该怎么给鸽巢原理的题目选择集合
+	- [ ] Section 12.3 Exercise 4-7
+	- [ ] 复合函数的结合律证明
+	- [ ] 单射和满射在复合函数关系上的传递性证明
+	- [ ] Inverse function, identity function, inverse matrix
+	- [ ] Reverse function 的计算
+	- [ ] image
+	- [ ] Preimage
+	- [ ] 集合论学习
+	- [ ] Section 12.5 Exercise 8 和 10 题
+	- [ ] Image 和 range 的区别是什么？
+	- [ ] Image 和 preimage 的相关定理证明 (关系到集合的交并等运算)
+	  - 要点：从定义出发。需要证明到定义中的两个 $\in$
+	- [ ] Image 和 primage 的定义需要再顺一顺，题目需要再做一做
+	- **注意证明时从定义出发**
+	- [ ] 如何在证明中使用单射的定义？Section 12.6 Exercise 13
+  - [ ] 微积分中的一些证明
+	- [ ] 不等式的使用巩固
+	- [ ] 这部分和数学分析联系紧密，先阅读几本解题思想和数学思想相关的书籍再来
+	- [ ] Triangle inequality 及其拓展推广
+	- [ ] 练习更多 Informal Definition 到 Precise Definition 的转换，熟悉数学语言
+	- [ ] 带平方差的极限证明：Example 13.2 使用了一些奇怪的技巧，及 Section 13.2 Exercise 5 6
+	- [ ] 证明跳跃间断点没有极限
+	  - [ ] 是用反证法，通过绝对值不等式+构造一个 $2\lt{2}$ 来证明不存在
+	- [ ] 证明震荡间断点没有极限
+	- [ ] 证明可去间断点处的极限
+  - [ ] 集合的基数
+	- [ ] 等基数的集合
+	  - [ ] N 和 Z 的集合基数相等
+	  - [ ] N 和 R 的集合基数是否相等
+	- [ ] 可数与不可数问题
+	- [ ] 比较集合的基数
+	- [ ] The Cantor-Bernstein-Schröder Theorem

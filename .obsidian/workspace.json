@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9c598a065cf307b7",
+        "id": "77137ee219d72db1",
         "type": "tabs",
         "children": [
           {
-            "id": "333f6d7a8556755e",
+            "id": "eb8b088bb32abe0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,8 +146,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "333f6d7a8556755e",
+  "active": "11822bb4b361d681",
   "lastOpenFiles": [
+    "未命名",
+    "Book of proof Todo.md",
+    "README.md",
+    "Book of$20proof Todo.md",
+    "Boof.md",
+    "基础微积分.md",
     "README.pdf"
   ]
 }
