@@ -1,55 +1,56 @@
 
-- [ ] 集合论与数理逻辑学习
-- [ ] 有理数定义的来源
-- [ ] 无理数定义的来源
-- [ ] 为什么有理数和无理数能够合成整个实数域？
-- [ ] 无理数和有理数在数轴上怎样分布？
-- [ ] 笛卡尔积满足结合律吗
-- [ ] 笛卡尔积对交和并运算满足分配律吗
-- [ ] Well ordering Principles 理解
-- [ ] Division algorithm 理解
-- [ ] Well-ordering principle & Division Algorithm Proof (数论，组合学)
-- [ ] 集合的定义？一个数本身就是一个集合？
-- [ ] Russell’s Paradox 理解？
-- [ ] Zermelo-Fraenkel axioms 理解？
-- [ ] 实现一个命题判断程序+句子改写+命题推理功能 ？
-- [ ] modus ponens rule ?
-- [ ] modus tolles ?
-- [ ] elimination ?
-- [ ] 其他 3 个推理定律？
-- [ ] 组合计数学习
-- [ ] 乘法定理的应用条件
-- [ ] 概率论学习
-- [ ] Preposition logic and set operation 的关系
-- [ ] 离散数学学习
-- [ ] 扑克牌算法研究
-- [x] 为什么 0 的阶乘和 1 的阶乘一样等于 1
-- [ ] K-permutation 公式是如何得到的？
-- [ ] What is the smallest n for which n! has more than 10 digits?
-- [ ] For which values of n does n! have n or fewer digits?
-- [ ] determine how many 0’s are at the end of the number 100!.
-- [ ] Gamma function and the factorial function
-- [ ] 数论学习
-- [ ] 组合学学习
-- [ ] 组合数计算时的对称性
-  - 从组合公式上可以看出，因为分母是 $k!$ 和 $(n-k)!$ 相乘
-  - 从公式原理上看，从 $n$ 个里面选 $k$ 个，就等同于从 $n$ 个里面选 $n-k$ 个
-- [ ] 杨辉三角，二项式定理及其相关问题，还有一些其他的相关推论
-- [ ] 0 的 0 次幂
-- [ ] Multiset counting
-  - 对于普通的 Multiset 划分，使用插杠法
-  - 对于多个 mulplicity 的 permutation 计算
-	- 将阶乘结果除以各个类别的全排列的连乘
-	- 或者对每个类别挨个进行组合选择，对组合进行连乘
-- [ ] Division principle -> Pigeonhole principle
-  - [ ] 几何上的应用
-  - [ ] 直接应用
-  - [ ] 与同余定理结合使用，挑选数字
-- [ ] 同余定理，中国剩余定理（数论）
-- [ ] 组合证明
-  - 代数上的证明
-  - 利用组合的含义直接理解
-  - 将两者结合理解
+- [ ] 基础知识
+	- [ ] 集合论与数理逻辑学习
+	- [ ] 有理数定义的来源
+	- [ ] 无理数定义的来源
+	- [ ] 为什么有理数和无理数能够合成整个实数域？
+	- [ ] 无理数和有理数在数轴上怎样分布？
+	- [ ] 笛卡尔积满足结合律吗
+	- [ ] 笛卡尔积对交和并运算满足分配律吗
+	- [ ] Well ordering Principles 理解
+	- [ ] Division algorithm 理解
+	- [ ] Well-ordering principle & Division Algorithm Proof (数论，组合学)
+	- [ ] 集合的定义？一个数本身就是一个集合？
+	- [ ] Russell’s Paradox 理解？
+	- [ ] Zermelo-Fraenkel axioms 理解？
+	- [ ] 实现一个命题判断程序+句子改写+命题推理功能 ？
+	- [ ] modus ponens rule ?
+	- [ ] modus tolles ?
+	- [ ] elimination ?
+	- [ ] 其他 3 个推理定律？
+	- [ ] 组合计数学习
+	- [ ] 乘法定理的应用条件
+	- [ ] 概率论学习
+	- [ ] Preposition logic and set operation 的关系
+	- [ ] 离散数学学习
+	- [ ] 扑克牌算法研究
+	- [x] 为什么 0 的阶乘和 1 的阶乘一样等于 1
+	- [ ] K-permutation 公式是如何得到的？
+	- [ ] What is the smallest n for which n! has more than 10 digits?
+	- [ ] For which values of n does n! have n or fewer digits?
+	- [ ] determine how many 0’s are at the end of the number 100!.
+	- [ ] Gamma function and the factorial function
+	- [ ] 数论学习
+	- [ ] 组合学学习
+	- [ ] 组合数计算时的对称性
+	  - 从组合公式上可以看出，因为分母是 $k!$ 和 $(n-k)!$ 相乘
+	  - 从公式原理上看，从 $n$ 个里面选 $k$ 个，就等同于从 $n$ 个里面选 $n-k$ 个
+	- [ ] 杨辉三角，二项式定理及其相关问题，还有一些其他的相关推论
+	- [ ] 0 的 0 次幂
+	- [ ] Multiset counting
+	  - 对于普通的 Multiset 划分，使用插杠法
+	  - 对于多个 mulplicity 的 permutation 计算
+		- 将阶乘结果除以各个类别的全排列的连乘
+		- 或者对每个类别挨个进行组合选择，对组合进行连乘
+	- [ ] Division principle -> Pigeonhole principle
+	  - [ ] 几何上的应用
+	  - [ ] 直接应用
+	  - [ ] 与同余定理结合使用，挑选数字
+	- [ ] 同余定理，中国剩余定理（数论）
+	- [ ] 组合证明
+	  - 代数上的证明
+	  - 利用组合的含义直接理解
+	  - 将两者结合理解
 - [ ] 基本证明方法
   - [ ] Direct proof
 	- [ ] 几个关键含义
@@ -223,7 +224,10 @@
 	  - [ ] 集合相关证明
 		- [ ] 集合论学习
 		- [ ] 集合的差运算是如何进行数学定义的？是否具有分配律？对其进行证明？
-	  - If $b \in{Z}$ and $b\nmid{k}$ for every $k\in{N}$, then $b=0$：==注意== 因为 $b$ 是整数，而 $k$ 是自然数，因此需要分类讨论 $b>0$ 和 $b<0$ 的情况
+	  - If $b \in{Z}$ and $b\nmid{k}$ for every $k\in{N}$, then $b=0$：
+		  >[!WARNING] 
+		  >
+		  > 因为 $b$ 是整数，而 $k$ 是自然数，因此需要分类讨论 $b>0$ 和 $b<0$ 的情况
 	  - [ ] 综合例题
 		- [ ] `初等数论` 教材搜集并学习
 		- [ ] `Fermat's two square theorem`
@@ -256,7 +260,7 @@
 	  - 在证明时分成两段，第二段开头可以用 `Conversely`
 	  - 经典例题
 		- $6 \mid a-b$ `if and only if` $2 \mid a-b$ and $3 \mid a-b$
-		- ==注意== 向右边证很容易，但是要向左边证明的话，需要巧妙地利用奇偶性
+		- 注意：向右边证很容易，但是要向左边证明的话，需要巧妙地利用奇偶性
 		- 因为 $2\mid a-b$，因此 $a-b=2n(n\in{Z})$，此外，$a-b$ 是个偶数
 		- $a-b = 3l(l\in{Z})$，因为 $a-b$ 是个偶数，因此 $l$ 必然是个偶数，因此 $l=2m,m\in{Z}$
 		- 那么 $a-b$ 就可以写成 $a-b=3l=3\cdot 2m=6m$，由此得出 $6\mid a-b$
@@ -326,7 +330,7 @@
 		  - 存在证明
 			- $P\implies{Q}$ 证明
 			  - 我们**设 $d=gcd(a,b)$**，且 $m=dn,n\in{Z}$
-				- ==注意：== 因为对于 $m$ ，当 $x=1,y=0$ 时 $m=a$，有 $a$ 是 $d$ 的倍数；当 $x=0,y=1$ 时 $m=b$，有 $b$ 是 $d$ 的倍数；但是令 $d=gcd(a,b)$ 只能提供一个存在性的例子，至于为什么它是唯一的而其他的 $a$ 和 $b$ 的公约数不满足题目条件，后面在证明唯一性的时候会看到为什么
+				- 注意： 因为对于 $m$ ，当 $x=1,y=0$ 时 $m=a$，有 $a$ 是 $d$ 的倍数；当 $x=0,y=1$ 时 $m=b$，有 $b$ 是 $d$ 的倍数；但是令 $d=gcd(a,b)$ 只能提供一个存在性的例子，至于为什么它是唯一的而其他的 $a$ 和 $b$ 的公约数不满足题目条件，后面在证明唯一性的时候会看到为什么
 			  - 根据前一问的结论，我们知道存在 $k,l\in{Z}$，使得 $d=ka+lb$
 			  - 带入到 $m=dn$ 中，可得 $m=n(ka+lb)=(nk)a+(nl)b$
 			  - 因此有 $m=ax+by(x=nk,y=nl)$
@@ -419,7 +423,7 @@
 	  - 需要证明 $A\subseteq{B}$ 和 $B\subseteq{A}$
 	  - [ ] 证明如果 $b$ 和 $d$ 为质数，$b\mid a$ 且 $d\mid a$，那么 $bd \mid a$（初等数论）
 	  - 经典例题
-		- ==注意==
+		- 注意
 		  - 集合的相关定理证明，需要以元素为基准，而不是像之前那样以定义为基准。也就是说，我们应该在证明时举出相关的例子，然后进行运算。而不是纯粹的根据定义来进行推导。
 		  - 推导 $A\subseteq{B}$ 就是从 $a\in{A}$ 推导到 $a\in{B}$，因此我们的推理可以从设 $a\in{A}$ 开始
 		- [x] 证明如果 $A$ 的幂集是 $B$ 的幂集的子集，那么 $A$ 是 $B$ 的子集
@@ -462,7 +466,7 @@
 			  - 我们由 $(a, b)\in (A\times{B})\cap (A\times{C})$ 推导得到了 $(a,b)\in A\times(B\times{C}$
 			  - 因此 $(A\times{B})\cap(A\times{C})\subseteq A\times({B\cap{C}})$
 		  - [x] 用集合运算律证明
-			- ==注意==：$P\iff P\land P$，因此有 $x\in A\iff x\in A\land x\in A$
+			- 注意：$P\iff P\land P$，因此有 $x\in A\iff x\in A\land x\in A$
 			- 在课本 p 164，核心方法如上，将 $x\in A$ 拆成 2 个 $x\in A$ 的交集，然后分割成 2 个交集。最后可以发现这两个集合分别来自两个笛卡尔积。
 		  - 注意区分集合的交并分配律，和 $\land$ 以及 $\lor$ 的交并分配律。前者可以转化成后者。此外，$x\in{A}$ 可以转化为 $x\in{A}\land x\in{A}$ 或者 $x\in{A}\lor x\in{A}$ 然后进行分配律的运算。集合交并问题的公理证明不需要从左推到右和从右推到左。
 		  - 在证明 $x\in{\bar A}$ 时，需要使用 $x\in{U-A}$，然后 $x\in{U}\land x\notin{A}$
@@ -515,7 +519,51 @@
 	- [ ] 其他数学归纳法书籍搜集阅读
 	- [ ] Inductive reasoning
 	- [ ] Bernoulli’s inequality
-	- [ ] 数学归纳法从 `Strong Induction` 开始没看
+	- [ ] Strong induction
+	- [ ] [n-ary Euclid lemma](https://math.stackexchange.com/questions/189294/from-n-2-to-n-ary-euclid-lemma-p-mid-a-1-cdots-a-n-rightarrow-p-mid-a-1)的数学归纳法证明
+	- [ ] 8及以上的任何数字都可以用3和5组成证明
+	- [ ] $12 \mid n^4-n^2$证明
+		- [ ] common multiple modular 的使用
+		- [ ] 其他的模相关运算性质学习
+		- [ ] 数论基础学习
+		- 思路梳理
+			- 我需要找到$(n^4-n^2)\mod 12$的一个`cycle`的`period`，也就是一个循环的周期
+			- [bill-dubuque](https://math.stackexchange.com/users/242/bill-dubuque)提出，There are in fact more refined number-theoretical methods for exploiting such modular periodicity of powers (e.g. [mod order reduction](https://math.stackexchange.com/a/2033681/242)).
+			- 顺着这个回答，我找到了欧拉法
+			- 欧拉法解决的问题是，找到让$a^e\equiv 1(\mod n)$的$e$。在我这个问题里也就是$n=a$，$12=n$
+			- 我这个问题想要解决的问题是$(n^4-n^2)\mod 12$的`period`，因此我的目标是找到`cycle`为4的$n$和`cycle`为2的$n$
+			- 欧拉法不能解决我的问题，因为需求不一样
+			- 我找到了中国剩余定理，其讲解了如何计算$a\mod cd$，
+			- 此外，我对数论的知识掌握还有严重的不足，尤其是在模运算方面，还需要加强学习
+			- 见鬼，应该使用的是二项式系数展开，啊！！！
+		- [ ] Modular Exponential 相关内容学习
+		- [ ] modular exponential cycle (period)
+			- [ ] 如何高效计算 the order of a mod n，也就是cycle的period（算法）
+			- [ ] Euler's theorem
+		- [ ] Modular Order Reduction
+		- [ ] 模运算分配律
+		- [ ] 模乘法 addition chaining exponential algorithm
+		- [ ] 蒙哥马利模乘算法
+	- [ ] 证明有$n$个节点的树的边为$n-1$个
+	- [ ] proof by smllest conterexample（数学推理和反证法的结合，也是变式的`contrapositive proof`）
+	- [ ] 基本算术定理：任何大于1 的整数都有唯一的质数分解
+	- [ ] 斐波那契数列和黄金分割比
+	- 什么时候使用`strong induction`? 而什么时候使用`regular induction`？
+		- 当该项可以由上一项的通项公式直接得到时，使用`regular induction`
+		- 当该项可以由一些更小的项进行组合推导得到时，使用`strong induction`
+		- 其他时候可以考虑使用`minimum counterexample induction`
+	- [ ] 需要巩固的习题
+		- [ ] 多项式同余相关的证明
+		- [ ] 利用奇偶性进行证明
+		- [ ] 不等式的熟练使用
+		- [ ] 数列放缩的方法掌握
+		- [ ] `strong induction` 强化练习
+		- [ ] `minimum counterexample` 强化练习
+		- [ ] 排列组合强化练习
+		- [ ] 计算几何学习
+		- [ ] 计算几何问题：不相交的直线切割平面问题
+		- [ ] 组合式的分裂练习
+		- [ ] [Vandermonde's Identity](https://math.stackexchange.com/questions/219928/inductive-proof-for-vandermondes-identity)
 - [ ] 关系，函数和基数
   - [ ] 关系
 	- [ ] 搜索关于 `relation` 的书籍
@@ -574,14 +622,90 @@
 	- [ ] Triangle inequality 及其拓展推广
 	- [ ] 练习更多 Informal Definition 到 Precise Definition 的转换，熟悉数学语言
 	- [ ] 带平方差的极限证明：Example 13.2 使用了一些奇怪的技巧，及 Section 13.2 Exercise 5 6
-	- [ ] 证明跳跃间断点没有极限
-	  - [ ] 是用反证法，通过绝对值不等式+构造一个 $2\lt{2}$ 来证明不存在
-	- [ ] 证明震荡间断点没有极限
-	- [ ] 证明可去间断点处的极限
+	- [ ] 证明极限不存在：设极限存在，然后用反证法引出矛盾
+		- [ ] 证明跳跃间断点没有极限
+		- [ ] 证明震荡间断点没有极限
+			- [ ] 海涅定理的理解和使用
+			- [ ] 如何使用海涅定理证明极限不存在
+		- [ ] 证明可去间断点处的极限：是用反证法，先设极限存在且等于$L$，然后通过绝对值不等式+构造一个 $2\lt{2}$ 来证明不存在
+	- [ ] 一个趋近于0的函数和一个收敛函数的乘积在$x\rightarrow{a}$时趋近于0，这个结论的证明过程
+	- [ ] 确界原理证明$|r|<1$时，$\lim\limits_{n\rightarrow\infty}r^n=0$
+	- [ ] 几个级数的convergence test的证明不会做，好烦，要阅读Spivak的微积分啦
+		- [ ] 柯西判定准则
+		- [ ] comparison test proof
+		- [ ] limit comparison test proof
+		- [ ] absolute comparison test proof
+		- [ ] ratio test proof
   - [ ] 集合的基数
 	- [ ] 等基数的集合
 	  - [ ] N 和 Z 的集合基数相等
 	  - [ ] N 和 R 的集合基数是否相等
-	- [ ] 可数与不可数问题
+	  - [ ] $[0,1]$和$(0,1)$的区别没有搞清楚，或者说$[]$和$()$的含义没有搞清楚，此外这题的证明使用直接构造法
+		  - [ ] 直接构造法构造双射
+			  - [ ] `Hilbert Hotel paradox`：[希尔伯特旅馆悖论 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E6%97%85%E9%A6%86%E6%82%96%E8%AE%BA)，无限个数个房间的旅馆总是能空出一个位置来，只要把除了该指定房间以外的其他房间按照一定的规则挪挪旅客，就能实现
+			  - [ ] 在这个题目中要实现从$[0,1]$到$[0,1)$，就需要构造一个双射，把元素都往外挪挪，把1这个地方空出来，可以实现$f(\frac{1}{n})=\frac{1}{n+1}$，而其他元素保持不变，这样1这个位置就空出来了，因此装1和不装1的旅馆，房间的个数相同，因此有从$[0,1]\rightarrow [0,1)$
+	  - [ ] 幂集的相关证明
+	  - [ ] $N\times N$和$\{(n,m)\in N\times N:n\le{m}\}$建立一个双射：已解决，使用函数$f(n,m)=(n,m-n+1)$来建立一个从$\{(n,m)\in N\times N:n\le{m}\}$到$N\times N$的双射。或者反过来利用$f(n,m)=(n,n+m-1)$来建立一个反向的双射。参考方案源自[这个答案](https://math.stackexchange.com/q/1986663/1326289)，其主要思想是把上半区域的点映射到对角线的另一边。从而实现从上半区域到$N\times N$的映射。
+	- [ ] 可数与不可数集合
+		- [ ] 算术基本定理复习
+		- [ ] 用算术基本定理证明集合和$\mathbb{N}$等基数：可以由$\phi(m,n)=2^{m-1}(2n-1)$构建从$\mathbb{N}\times\mathbb{N}\rightarrow\mathbb{N}$的映射
+		- [ ] 什么是countably infinite? 
 	- [ ] 比较集合的基数
+		- [ ] $|A|$小于$|\mathbb{P}({A})|$的证明
+		- [ ] 由subset关系得到的countably infinite set和uncountable set的关系
+		- [x] 14.3 的集合基数比较的练习题
+		- [ ] 进行集合基数比较时，可能需要构建多个比较对象，对每一级构造双射函数，逐级比较
+		- [ ] 利用countably finite集合的并是countably finite集合+反证法，来证明如果$B$是不可数的，而它的子集$A$是可数的，那么$B-A$是不可数的
+		- [ ] image和pre-image相关的集合证明有点忘了，Section 12.5的相关证明再复习一下
+		- [x] 完成Exercise 9和10（其实可以用反证法）
 	- [ ] The Cantor-Bernstein-Schröder Theorem
+		- [x] 14.4 的定理原理理解
+		- [x] 14.4 的定理证明理解
+		- [x] 集合基数相等的证明
+		- [x] the continuum hypothesis 介绍
+		- [ ] 14.4 练习完成
+			- [ ] 构造injection fucntion学习
+			- [ ] 实数和小数以及二进制数之间的映射学习
+			- [ ] 球极投影
+			- [ ] 把两个数的小数表示插起来的方法
+			- [ ] 信息论与编码学习
+			- [ ] **在把1的原像当子集**
+			- [ ] 实数本身可以编码信息
+			- [ ] 实数的小数部分是无限的，可以用这无限的部分去记录一些信息
+			- [ ] 比如把这些数位两两拆开
+			- [ ] 一个实数还对应一个自然数子集
+			- [ ] 先写出一个二进制实数
+			- [ ] 把实数映射到 [0, 1) 上的实数，我就忽略整数部分了
+			- [ ] 我们会发现是 0.00110001101… 之类的东西
+			- [ ] 同一个实数有两种二进制表示
+			- [ ] 用0作为分段再交叉就行了
+			- [ ] 直接禁掉结尾有无穷多0的那个形式
+			- [ ] 确定一个实数只需要找到它的二进制表示就行了对吧
+			- [ ] 先做简单的，(0,1)的实数可不可以表示呢
+			- [ ] 第一位是1吗?  
+				第二位是1吗?  
+				第三位是1吗?  
+				...  
+				第N位是1吗?
+			- [ ] N→Bool
+			- [ ] 这个数对应哪个自然数子集呢？设这个子集为 X，我们直接看，比如小数点后第一位是 0，我们就解释为第一个自然数不属于 X，但是第三位是 1，就解释为第三个自然数属于 X，也就是 X = {2, 3, 7, 8, 10…}
+			- [ ] 这样能把每一个数对应一个自然数子集吗，其实不是。
+			- [ ] 因为同一个数有 0.1000… 和 0.0111… 两种写法
+			- [ ] 只有有理数存在这个问题，而有理数是可以和正整数一一对应的
+			- [ ] 所以你把所有有理数列出来，然后再把对应的自然数子集按顺序列出来
+			- [ ] 就获得了一个双射
+			- [ ] 因为N和2N之间是双射
+			- [ ] 我是说上面证明出 |P(N)| ≥ R
+			- [ ] 然后换三进制小数
+			- [ ] R ≥ |P(N)|
+			- [ ] 在刚才那个证明里使用基数算术
+			- [ ] 实数的小数表示
+			- [ ] 所以一个实数不只是一个实数，而是一个实数就可以对应一个和可数无穷有关的东西
+			- [ ] 比如说一个实数小数点后有可数无穷位
+			- [ ] 而自然数不会有“可数无穷位”
+			- [ ] 一个实数后面的小数位可以用来表示一些东西
+			- [ ] Exercise 2 完成
+			- [ ] Exercise 3 原理弄明白
+			- [ ] Exercise 3 自己证一遍
+			- [ ] Exercise 4 完成
+			- [ ] Exercise 6 完成

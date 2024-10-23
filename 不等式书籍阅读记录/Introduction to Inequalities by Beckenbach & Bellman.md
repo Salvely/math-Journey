@@ -1,0 +1,29 @@
+- [x] Fundamentals
+	- 从$\gt$符号的几何含义讲起：$a\gt{b}$表示$a$在实数轴上位于$b$的右边
+	- 定义：$a\gt{b}$是指$a-b$为正数
+	- 实数有3类：正数、负数和0
+	- 对于任意实数，有$a+0=a$
+	- 对于任意实数，有$(-a)+a=0$
+	- 不等式基本定理
+		- Axiom I：如果$a$是个实数，那么它的取值只有3种可能：$a$是正数，$a$是0，$-a$是正数
+			- 该定理的变式涉及到两个变量$a,b$
+			- Axiom I'：如果$a,b$是实数，那么他们的取值只有3种可能，$a>b,a=b,a<b$
+				- 因为$a-b$的值只有三种可能，是正数/负数/零（由Axiom 1推理得到）
+			- 从Axiom I可以推理得到Axiom I'，从Axiom I'也可以推理得到Axiom I，因此两个Axiom等价
+		- Axiom II：若$a,b$均为正数，那么他们的加和乘积也都是正数
+	- 关于乘法的几条准则
+		- 负 x 正=正
+		- 负 x 负=负
+		- 对任意实数$a$都有$a^2\ge{0}$，当且仅当$a=0$时有$a^2=0$
+- [x] Tools
+	- [x] 不等号的传递性
+	- [x] 可加性
+	- [x] 两边同乘一个数
+	- [x] 两边同减一个数
+	- [x] 连乘大小比较
+	- [x] 两边同除以一个数
+	- [x] 求幂和求根
+- [x] Absolute Value
+- [ ] Classical Inequalities
+- [ ] Maximization and Minimization Problems
+- [ ] Properties of distance

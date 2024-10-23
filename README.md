@@ -1,32 +1,42 @@
 # math-Journey
 
-我的数学学习之路，基于[MIT Roadmaps](https://math.mit.edu/academics/undergrad/roadmaps.html)，教材选择参考 [Math.stackexchange](https://math.stackexchange.com/) 以及[cargalmathbooks](http://www.cargalmathbooks.com/)
+我的数学学习之路，基于[MIT Roadmaps](https://math.mit.edu/academics/undergrad/roadmaps.html)，教材选择参考：
+
+1. [Math.stackexchange](https://math.stackexchange.com/) 
+2. [cargalmathbooks](http://www.cargalmathbooks.com/)
+3. https://freecomputerbooks.com/puremath.htm
+4. [常用教科書列表與簡評 | 臺大數學系 (ntu.edu.tw)](https://www.math.ntu.edu.tw/earning/textbooks#:~:text=%E5%B8%B8%E7%94%A8%E6%95%99%E7%A7%91%E6%9B%B8%E5%88%97)
+
+每个内容学习两遍，一遍初学，一遍Review，Review结束之后解决掉所有的Todo。将所有数学基础知识学习贯通，准备好进行数学研究。
 
 ## 数学基础速通
 
 - [x] 基础微积分
-- [ ] 数学推理入门（Logic, mathematical reasoning/inference/proof）
-  - [ ] [Book of proof](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf#page=77) 阅读并完成所有习题，Todo见此：[Book of proof Todo](Book%20of%20proof%20Todo.md)
+- [x] 数学推理入门（Logic, mathematical reasoning/inference/proof）
+    - [ ] [Book of proof](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf#page=77) 阅读并完成所有习题：[Book of proof Todo](Book%20of%20proof%20Todo.md)
+- [ ] 离散数学：[离散数学书籍列表](离散数学书籍列表.md)
+- [ ] 数学归纳法（需要强化训练）
+- [ ] 初等数学复习
+  - [ ] 数理化自学全书
+  - [ ] 高中数理化甲种本
+  - [ ] 中学实验课本
+  - [ ] 奥赛小蓝皮
 - [ ] 解题方法论
   - [ ] Polya 如何解题
+  - [ ] [How to Prove it](http://users.metu.edu.tr/serge/courses/111-2011/textbook-math111.pdf), by Daniel Velleman
   - [ ] Terrence Tao - Solving mathematical problems
   - [ ] How to think about analysis
   - [ ] Introduction to Mathematical Thinking
   - [ ] 数学与猜想
   - [ ] 数学的发现
   - [ ] 数学证明
-- [ ] 数学归纳法
-- [ ] 初等数论
-- [ ] 初等组合学
-- [ ] 离散数学
-- [ ] 不等式相关
-  - [ ] _Introduction to Inequalities_. Beckenbach, Bellman. 阅读
-  - [ ] THE CAUCHY–SCHWARZ MASTER CLASS
-- [ ] 初等数学复习
-  - [ ] 数理化自学全书
-  - [ ] 高中数理化甲种本
-  - [ ] 奥赛小蓝皮
-- [ ] 数学证明方法复习巩固
+  - [ ] [Amazon.com: Problem-Solving Strategies (Problem Books in Mathematics): 9780387982199: Engel, Arthur: Books](https://www.amazon.com/dp/0387982191)
+- [ ] **不等式相关**（需要强化训练）
+	- [ ] 不等式相关书籍搜集并阅读完成：[不等式书籍列表](不等式书籍列表.md)
+- [ ] **数列及其放缩技巧学习**
+- [ ] **初等数论**（需要强化训练）
+	- [ ] [《初等数论及其应用》Rosen](《初等数论及其应用》Rosen.md) 阅读，目标是掌握一些基本的定理和证明，为后期的数论学习和证明方法学习做铺垫，以免再学习证明的过程中因为数论的知识缺憾而无法下手解题
+- [ ] 数学推理复习巩固（需要强化训练）
   - [ ] 首先去学习初等数论和组合学，学完以后再来复习 `proof` 的相关知识，否则会因为基础不好而受到打击，本部分学到对于任意的 `proof` 都能产生敏感的直觉为止
   - [ ] 搜集好的关于数学推理和证明的教材
   - [ ] How to prove it? A Structured approach 阅读
@@ -40,33 +50,23 @@
   - [ ] 实现一个软件，可以把英文转化为数学公式，推理数学公式，也可以证明数学定理
 - [ ] 数学思想 & 数学史
 - [ ] 数学分析
-- [ ] 常微分方程
 - [ ] 高等代数
+- [ ] 常微分方程
 - [ ] 概率论与数理统计
 - [ ] 抽象代数
 - [ ] 代数学
-- [ ] 交换代数
-- [ ] 信息论与编码
 - [ ] 数理逻辑
-- [ ] 算法导论
-- [ ] 形式语言与自动机理论
-- [ ] 自动机，可计算性与计算复杂性理论
-- [ ] 计算理论
-- [ ] 算法设计与分析
-- [ ] 理论计算机导论
-- [ ] 图论
 - [ ] 组合数学
-- [ ] 数论
-- [ ] 密码学
-- [ ] 偏微分方程
-- [ ] 最优化方法
-- [ ] 具体数学
-- [ ] 解析几何
-- [ ] 数值分析
-- [ ] 复分析
-- [ ] 数学物理方法
+	- [ ] 高纳德《具体数学》
 
-## 应用数学部分：计算机方向
+## [纯数学习路径](https://freecomputerbooks.com/puremath.htm)完成
+
+## USTC 数学学习路径
+
+## [常用教科書列表與簡評 | 臺大數學系 (ntu.edu.tw)](https://www.math.ntu.edu.tw/earning/textbooks#:~:text=%E5%B8%B8%E7%94%A8%E6%95%99%E7%A7%91%E6%9B%B8%E5%88%97)阅读完成
+
+## MIT 数学学习路径
+### MIT 应用数学部分：计算机方向
 
 - [ ] 18.02 Multivariable Calculus
   - [ ] [The Calculus: A Genetic Approach: Toeplitz, Otto, Bressoud, David: 9780226806686: Amazon.com: Books](https://www.amazon.com/Calculus-Genetic-Approach-Otto-Toeplitz/dp/0226806685)
@@ -405,9 +405,9 @@
 - [ ] 18.725 Algebraic Geometry I
 - [ ] 18.745 Lie Groups and Lie Algebras I
 
-## 纯数部分
+### MIT 纯数部分
 
-### 代数
+#### 代数
 
 - [ ] 18.704 Seminar in algebra
 - [ ] 18.782 Introduction to Arithmetic Geometry
@@ -415,7 +415,7 @@
 - [ ] 18.755 Lie Groups and Lie Algebras II
 - [ ] 18.755 Lie Groups and Lie Algebras II
 
-### 分析与几何
+#### 分析与几何
 
 - [ ] 18.101 Analysis and Manifolds
 - [ ] 18.102 Introduction to Functional Analysis
@@ -432,27 +432,27 @@
 - [ ] 18.965 Geometry of Manifolds I
 - [ ] 18.966 Geometry of Manifolds II
 
-### 数论
+#### 数论
 
 - [ ] 18.781 Theory of numbers
 - [ ] 18.784 Seminar in Number Theory
 - [ ] 18.785 Number Theory I
 
-### 概率与统计
+#### 概率与统计
 
 - [ ] 18.677 Topics in Stochastic Processes
 - [ ] 18.655 Mathematical Statistics
 
-### 拓扑与几何
+#### 拓扑与几何
 
 - [ ] 18.904 Seminar in Topology
 - [ ] 18.116 Riemann Surfaces
 - [ ] 18.905 Algebraic Topology I
 - [ ] 18.906 Algebraic Topology II
 
-## 其他方向应用数学
+### MIT 其他方向应用数学
 
-### 物理数学
+#### 物理数学
 
 - [ ] 18.300 Principles of Continuum Applied mathematics
 - [ ] 18.352[J] Nonlinear Dynamics: The Natural Environment
@@ -473,3 +473,7 @@
 - [ ] 18.075 Methods for Scientists and Engineers
 - [ ] 18.376[J] Wave Propagation
 - [ ] 18.377[J] Nonlinear Dynamics and Waves
+
+
+
+
